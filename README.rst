@@ -77,3 +77,4 @@ OS Compatibility
 Tested with:
 
 * GNU/ Linux Debian Wheezy
+* CentOS 6
