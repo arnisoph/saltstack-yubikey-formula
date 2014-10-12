@@ -1,0 +1,3 @@
+{%- for k, v in user_keys|dictsort|default({}) -%}
+{{ k }}:{{ v|sort|join(':') }}
+{% endfor %}

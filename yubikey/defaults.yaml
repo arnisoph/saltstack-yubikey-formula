@@ -1,0 +1,16 @@
+{% load_yaml as rawmap_osfam %}
+Debian:
+  config:
+    manage:
+      - yubico
+      - global_authorized_yubikeys
+    yubico: {}
+    global_authorized_yubikeys: {}
+RedHat:
+  config:
+    manage:
+      - yubico
+      - global_authorized_yubikeys
+    yubico: {}
+    global_authorized_yubikeys: {}
+{% endload %}
